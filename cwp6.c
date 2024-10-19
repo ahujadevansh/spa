@@ -20,6 +20,15 @@ int main()
     printf("%015.2e\n",p);
     printf("%015.2e\n",q);
 
+    float x, b;
+    x=sizeof (b);
+    //printf("%f", x);
+
+
+    int y = 2;
+    y = y>>2;
+    printf("%i", y);
+
     getch();
     return 0;
 }
